@@ -1,0 +1,272 @@
+.navbar{ background: #000080;}
+
+
+
+.nav-link , .navbar-brand{ color: #f97300; cursor: pointer;}
+
+.nav-link{ margin-right: 1em !important;}
+
+.nav-link:hover{ background: #f97300; color: #000080; }
+
+.navbar-collapse{ justify-content: flex-end;}
+
+.navbar-toggler{  background:#f97300 !important;}
+
+.bg-dark{
+    background-color: #343a40!important;
+}
+
+.bg-primary{
+    background-color: #f97300!important;
+}
+
+.header{
+    background-image: url('https://www.ak4tsay1.com/wp-content/uploads/2019/05/World-Cup-2011-Champions.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay{
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(244, 244, 244, 0.79);
+}
+
+.description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+}
+
+.description h1{
+    color: #000080;
+    text-align: center;
+
+}
+
+
+
+.description button{
+    border: 1px solid  #000080;
+    background: #000080;
+    color: #f97300;
+    margin-left: 70%;
+}
+
+.about{
+    margin: 4em 0;
+    padding: 1em;
+    position: relative;
+}
+
+.about h1{
+    color: #000080;
+    margin: 2em;
+}
+
+.about img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.about span{
+    display: block;
+    color: #10828c;
+    position: absolute;
+    left: 115px;
+}
+
+.about .desc{
+    padding: 2em;
+    border-left: 4px solid #10828C;
+}
+
+.about .desc h3{
+    color: #10828C;
+}
+
+.about .desc p{
+    line-height: 2;
+    color: #10828C;
+}
+
+.portfolio{
+    margin: 4em 0;
+    position: relative;
+
+}
+
+.portfolio h1{
+    color: #10828C;
+    margin: 2em;
+}
+
+.portfolio img{
+    height: 15rem;
+    width: 100%;
+    margin: 1em;
+}
+
+.blog{
+    margin: 4em 0;
+    position: relative;
+}
+
+.blog h1{
+    color: #10828C;
+    margin: 2em;
+}
+
+.blog .card{
+    box-shadow: 0 0 20px #ccc;
+}
+
+.blog .card img{
+    width: 100%;
+    height: 12em;
+}
+
+.blog .card title{
+    color: #10828C;
+}
+
+.blog .card-body{
+    padding: 1em;
+}
+
+
+.team{
+    margin: 4em 0;
+    position: relative;
+}
+
+.team h1{
+    color: #10828C;
+    margin: 2em;
+}
+
+.team .item{
+    position: relative;
+}
+
+.team .des{
+    background: #10828c;
+    color: #add8e6;
+    text-align: center;
+    border-bottom-left-radius: 93%;
+    transition: .3s ease-in-out;
+}
+
+.team .item:hover .des{
+    height: 89%;
+    background: #10828cfd;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 5em;
+    top: 0;
+    border-bottom-left-radius: 0;
+}
+
+.contact-form{
+    margin: 6em 0;
+}
+
+.contact-form h1{
+    padding: 2em 1px;
+    color: #10828c;
+}
+
+.contact-form .right{
+    max-width: 600px;
+}
+
+.contact-form .right .btn-secondary{
+    background: #10828c;
+    color: #fff;
+    border: 0;
+}
+
+.contact-form .right .form-control::placeholder{
+    color: #10828C;
+    font-size: 16px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html,h1,h2,h3,h4,h5,h6,a{
+    font-family: "Montserrat" , sans-serif;
+}
+
+
+.fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 30px 2px;
+    border-radius: 50%;
+}
+
+.fa-facebook{
+    margin-left: 47%;
+}
+
+.fa:hover{
+    opacity: 0.7;
+}
+
+section{
+    height: 100%;
+}
+
+.animation-element{
+    opacity: 0;
+    position: relative;
+}
+    .slide-left {
+        -webkit-transition: all 500ms ease;
+        -moz-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        transition: all 500ms ease;
+        opacity: 0;
+        -moz-transform: translate3d(-100px, 0px, 0px);
+        -webkit-transform: translate3d(-100px, 0px, 0px);
+        -o-transform: translate(-100px, 0px);
+        -ms-transform: translate(-100px, 0px);
+        transform: translate3d(-100px, 0px, 0px);
+    }
+	
+	.slide-right {
+        -webkit-transition: all 500ms ease;
+        -moz-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        transition: all 500ms ease;
+        opacity: 0;
+        -moz-transform: translate3d(100px, 0px, 0px);
+        -webkit-transform: translate3d(100px, 0px, 0px);
+        -o-transform: translate(100px, 0px);
+        -ms-transform: translate(100px, 0px);
+        transform: translate3d(100px, 0px, 0px);
+    }
+	
+	.slide-left.in-view, .slide-right.in-view {
+        opacity: 1;
+        -moz-transform: translate3d(0px, 0px, 0px);
+        -webkit-transform: translate3d(0px, 0px, 0px);
+        -o-transform: translate(0px, 0px);
+        -ms-transform: translate(0px, 0px);
+        transform: translate3d(0px, 0px, 0px);
+    }
+
+
+.black{
+    background-color: #000;
+}
